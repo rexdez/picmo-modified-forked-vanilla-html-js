@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2a292e;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto 0;
+    gap: 12px;
+
+}
+#message {
+    resize: none;
+    background-color: #1c1c1f;
+    border: 0.5px solid #434446;
+    border-radius: 8px;
+}
+
+button {
+    --primary-color: #2c2a5b;
+    --secondary-color: #fff;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    padding: 8px 16px;
+    background: #4d4b8a;
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    font-weight: bold;
+    transition: filter 0.2s linear;
+  }
+button:hover {
+    filter: brightness(0.7);
+    
+  }
+  

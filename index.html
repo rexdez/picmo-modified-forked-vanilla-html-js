@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+    <script src="/js/picmo.js"></script>
+    <script src="/js/picmo-popup.js"></script>
+    <!-- <script src="/js/picmo-twemoji.js"></script> -->
+</head>
+<body>
+    <div class="main-content">
+        <textarea name="message" id="message"></textarea>
+        <button id="emoji-picker" onclick="emojiPicker.toggle();">Select Emoji</button>
+    </div>
+</body>
+<!-- Imported here to prevent premature initialization on picmoPopup -->
+<script src="/index.js"></script>
+</html>
