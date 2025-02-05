@@ -282,6 +282,7 @@ var y = (n, u, f) => (le(n, u, "access private method"), f);
           e.key === "Tab" && this.checkFocus(e, e.shiftKey ? this.firstFocusableElement : this.lastFocusableElement, e.shiftKey ? this.lastFocusableElement : this.firstFocusableElement)
       }
   }
+  // Here it defines the profile to be chosen for the color profile
   const {
       light: ke,
       dark: st,
@@ -868,6 +869,7 @@ var y = (n, u, f) => (le(n, u, "access private method"), f);
           super(localStorage)
       }
   }
+  // Modifies the default value to st. i.e to choose dark theme by default
   const Ft = {
       dataStore: X,
       theme: st,
