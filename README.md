@@ -13,6 +13,9 @@ This is a **fork** of [PicMo](https://github.com/joeattardi/picmo) that has been
 3. **No Node.js Environment Required**  
    - Removed the dependency on `process.env.NODE_ENV`, making it more compatible with static HTML/JS deployments.
 
+4. **Picker Position beside the trigger element**  
+   - Instead of taking default position to `left-start` it takes position beside/above the trigger element
+
 ## 📦 Installation
 
 You can include the script directly in your HTML file without any build tools.
